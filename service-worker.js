@@ -1,4 +1,4 @@
-elf.addEventListener('install', function(e) {
+self.addEventListener('install', function(e) {
   console.log('Install Event:', e);
 });
 
